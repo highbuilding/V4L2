@@ -1,0 +1,3 @@
+/work/v4l2/videoshow/build/src/lcdopr/CMakeFiles/lcd_module.dir
+/work/v4l2/videoshow/build/src/parsebmp/CMakeFiles/parsebmp_module.dir
+/work/v4l2/videoshow/build/src/CMakeFiles/videoshow.dir

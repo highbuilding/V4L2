@@ -1,0 +1,29 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)       # CMake 最低版本要求，低于2.8 构建过程会被终止。 
+PROJECT(videoshow)                                             #定义工程名称
+
+
+MESSAGE(STATUS "Project: VideoShow")               # 打印相关消息消息 
+MESSAGE(STATUS "Project Directory: ${PROJECT_SOURCE_DIR}")
+SET(CMAKE_BUILE_TYPE RELEASE)                      # 指定编译类型，debug 或者为 release
+                                                   # debug 版会生成相关调试信息，可以使用 GDB 进行 
+# release不会生成调试信息。当无法进行调试时查看此处是否设置为 debug.
+
+
+
+SET(CMAKE_C_FLAGS_DEBUG "-g -Wall")          # 指定编译器 
+                                             # CMAKE_C_FLAGS_DEBUG            
+----  C 编译器
+
+                                             # CMAKE_CXX_FLAGS_DEBUG        -
+---  C++ 编译器
+
+                                             # -g：只是编译器，在编译的时候，产生调试信息。
+
+                                             # -Wall：生成所有警告信息。一下是具体的选项，可以单独使用
+
+
+ADD_SUBDIRECTORY(src)                    # 添加子目录 
+
+
+
+

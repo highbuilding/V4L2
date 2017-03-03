@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project(videoshow)
+message(STATUS "Project:VideoShow")
+message(STATUS "Project Directory:${PROJECT_SOURCE_DIR}")
+set(CMAKE_BUILD_TYPE RELEASE)
+set(CMAKE_C_COMPILER   /work/linux/IMX6/tools/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-g++)
+set(CMAKE_CXX_COMPILER /work/linux/IMX6/tools/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-g++)
+add_subdirectory(src)

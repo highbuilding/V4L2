@@ -1,0 +1,1 @@
+/work/linux/IMX6/tools/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-g++  -O3 -DNDEBUG    CMakeFiles/videoshow.dir/video2lcd.c.o  -o ../../bin/videoshow -rdynamic -L/work/v4l2/videoshow/lib -lpthread ../../lib/liblcd_module.a ../../lib/libparsebmp_module.a -Wl,-rpath,/work/v4l2/videoshow/lib 

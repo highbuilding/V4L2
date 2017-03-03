@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../../lib/liblcd_module.a  CMakeFiles/lcd_module.dir/lcd_ops.c.o CMakeFiles/lcd_module.dir/color.c.o
+/usr/bin/ranlib ../../../lib/liblcd_module.a
